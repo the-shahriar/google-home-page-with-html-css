@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+header{
+	right: 0;
+	top: -160px;
+	position: absolute;
+	padding: 10px;
+}
+
+header .logo img{
+	width: 30px;
+	border-radius: 50%;
+	float: right;
+	display: block;
+	margin-top: 10px;
+	margin-right: 20px;
+	
+}
+
+header ul{
+	float: right;
+	margin: 10px;
+}
+
+header ul li{
+	display: inline-block;
+}
+
+header ul li a{
+	padding: 7px;
+	font-size: 12px;
+	font-family: sans-serif;
+	color: #000;
+	overflow: hidden;
+}
+
+header ul li:hover a{
+	text-decoration: underline;
+}
+
+ul li a{
+	font-size: 12px;
+	color: #a1a1a1;
+}
+
+ul li:hover a{
+	text-decoration: underline;
+}
+
+.content{
+	width: 85%;
+	margin: auto;
+	text-align: center;
+}
+
+.logo{
+	margin: auto;
+	width: 350px;
+	margin-top: 150px;
+	margin-bottom: 25px;
+}
+
+.content p a{
+	text-decoration: none;
+}
+.content p a:hover{
+	text-decoration: underline;
+}
+
+.search input{
+	width: 600px;
+	padding: 16px;
+	border-radius: 30px;
+	border: 1px solid #fff;
+	margin-bottom: 20px;
+}
+
+.search input:hover{
+	box-shadow: 0px 0px 5px #ebeaea;
+}
+.search{
+	position: relative;
+	width: 600px;
+	margin: auto;
+}
+
+.btn input{
+	padding: 10px 20px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	font-size: 15px;
+	color: #222;
+    margin: 5px;
+}
+
+.btn input:hover{
+	box-shadow: 1px solid red;
+}
+
+.icon i:first-child{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 20px;
+    color: #C0C3C7;
+}
+.icon a img{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 20px;
+    
+}
+p{
+    margin-top: 20px;
+    font-size: 13px;
+    color: #222;
+} 
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #0000008a;
+    height: 90px;
+    background-color: #F2F2F2;
+}
+.footer h2{
+    border: 1px solid #e7e6e6;
+    padding: 15px 30px; 
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.54);
+    font-weight: 400;
+}
+.left ul{
+    list-style: none;
+    padding-left: 20px;
+    float: left;
+}
+.left ul li{
+    display: inline-block;
+    overflow: hidden;
+}
+ul li a{
+    padding: 10px;
+    display: block;
+    text-decoration: none; 
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.54);
+}
+.right ul{
+    list-style: none;
+    float: right;
+    padding-right: 30px;
+}
+.right ul li{
+    float: left;
+    overflow: hidden;
+}
